@@ -22,7 +22,7 @@ import { TOOL_MAP, ALL_TOOLS } from "@/data/tools";
 import { softwareSchema, organizationSchema } from "@/lib/schema";
 
 function ScoreBar({ label, score, color }: { label: string; score: number; color: string }) {
-  const pct = Math.min(score, 100);
+  const pct = Math.min(score * 10, 100);
   return (
     <div className="flex items-center gap-3">
       <span className="text-xs text-[#839BBE] w-20 shrink-0">{label}</span>

@@ -433,3 +433,5 @@ export const ALL_TOOLS: ToolData[] = [
     userQuotes: [{"role": "Agency Partner", "company": "CreativeWorks Agency", "quote": "Teamwork's integrated billing and retainer management saves us 15 hours of admin work per week. Our clients love the portal."}, {"role": "Operations Lead", "company": "Digital Services Co", "quote": "Resource management across 50+ client projects is finally manageable. The workload view prevents overbooking."}]
   },
 ];
+
+export const TOOL_MAP = new Map(ALL_TOOLS.map((t) => [t.id, t]));
