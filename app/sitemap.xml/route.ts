@@ -3,6 +3,8 @@ import { MetadataRoute } from "next";
 const BLOG_SLUGS = [
   "2026-project-management-tools-complete-buyers-guide",
     "asana-vs-monday-vs-jira-2026-ppm-showdown",
+    "project-management-software-buyers-guide-2026",
+    "agile-vs-waterfall-choosing-the-right-pm-methodology",
 ] as const;
 
 const TOOL_SLUGS = [
@@ -20,6 +22,16 @@ const TOOL_SLUGS = [
     "shortcut",
     "height",
     "teamwork",
+    "proofhub",
+    "liquidplanner",
+    "hive",
+    "scoro",
+    "zoho-projects",
+    "microsoft-project",
+    "ganttpro",
+    "celoxis",
+    "ntask",
+    "binfire",
 ] as const;
 
 const CATEGORY_SLUGS = [
