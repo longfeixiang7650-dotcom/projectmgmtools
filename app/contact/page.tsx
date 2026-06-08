@@ -32,7 +32,7 @@ export default function ContactPage() {
             Get in Touch
           </h1>
           <p className="text-lg text-[#839BBE] max-w-xl mx-auto">
-            Have a question, suggestion, or want to list your hosting provider? We&apos;d love to
+            Have a question, suggestion, or want to list your project management tool? We&apos;d love to
             hear from you.
           </p>
         </div>

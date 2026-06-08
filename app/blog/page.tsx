@@ -31,7 +31,7 @@ export default function BlogPage() {
           </h1>
           <p className="text-lg text-[#839BBE] max-w-2xl mx-auto">
             In-depth comparisons, buying guides, and strategies to help you make
-            smarter hosting and server decisions.
+            smarter project management tool decisions.
           </p>
         </div>
 

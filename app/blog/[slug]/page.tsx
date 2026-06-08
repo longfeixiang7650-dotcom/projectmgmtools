@@ -181,7 +181,7 @@ export default async function BlogPostPage({
   const orgJsonLd = organizationSchema(
     'ProjectMgmtTools',
     'https://projectmgmtools.net',
-    'Honest hosting reviews and comparisons for modern businesses.'
+    'Independent project management software directory. Compare, review, and discover the best PM tools for your team.'
   );
 
   return (
@@ -364,7 +364,7 @@ export default async function BlogPostPage({
                 </div>
                 <h3 className="text-sm font-bold text-[#F0F2FE] mb-2">Find the Right Tool</h3>
                 <p className="text-xs text-[#839BBE] mb-4">
-                  Browse 79+ email marketing software reviews
+                  Browse our comprehensive PM tool reviews
                 </p>
                 <Link
                   href="/"

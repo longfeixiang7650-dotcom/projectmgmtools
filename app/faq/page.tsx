@@ -9,82 +9,122 @@ const FAQ_SCHEMA = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "What is cloud hosting?",
+      name: "What is project management software?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Cloud hosting refers to hosting websites and applications on virtual servers that pool resources from a network of physical servers. Unlike traditional single-server hosting, cloud hosting offers scalability, redundancy, and pay-as-you-go pricing. Resources can be scaled up or down on demand, making it ideal for businesses with variable traffic needs. Leading providers include AWS, Google Cloud, DigitalOcean, and Linode.",
+        text: "Project management software helps teams plan, track, and execute work efficiently. It provides tools for task assignment, scheduling, resource planning, collaboration, and reporting. Modern PM tools support various methodologies including Agile, Scrum, Kanban, and Waterfall, and offer features like Gantt charts, time tracking, file sharing, and real-time collaboration. Popular examples include Asana, Jira, Monday.com, ClickUp, and Trello.",
       },
     },
     {
       "@type": "Question",
-      name: "What is the difference between VPS and shared hosting?",
+      name: "What's the difference between free and paid project management tools?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Shared hosting means your website shares server resources with many other websites on the same physical machine. It's cheap but offers limited performance and security isolation. VPS (Virtual Private Server) hosting partitions a physical server into multiple virtual servers, each with dedicated CPU, RAM, and storage. VPS provides better performance, root access, and isolation — suitable for growing sites that outgrow shared hosting.",
+        text: "Free PM tools typically offer basic task management, limited storage, and fewer users. Paid plans unlock advanced features like Gantt charts, time tracking, automation, portfolio management, and priority support. For example, Asana's free plan supports up to 15 users, while paid plans start at $10.99/user/month. ClickUp's free plan is generous for individuals, but teams quickly outgrow it. Evaluate your needs — many teams start free and upgrade as workflows become more complex.",
       },
     },
     {
       "@type": "Question",
-      name: "How do I choose the right hosting provider?",
+      name: "Agile vs Waterfall vs Kanban — which methodology should I choose?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Key factors include: (1) Performance — look for SSD/NVMe storage, fast CPU cores, and uptime guarantees of 99.9%+. (2) Scalability — can you easily upgrade resources? (3) Support — 24/7 live chat and knowledgeable staff. (4) Pricing — watch for introductory vs renewal rates. (5) Location — choose data centers close to your audience. (6) Features — free SSL, CDN, backups, staging environments. Compare providers on ProjectMgmtTools to find your best match.",
+        text: "Agile (Scrum) works best for software development teams with iterative sprints and cross-functional collaboration. Waterfall suits industries with fixed requirements and sequential phases like construction or manufacturing. Kanban is ideal for continuous delivery workflows where visualizing work-in-progress limits matters. Many modern PM tools support all three. Start with the methodology that matches your team's natural workflow, and use a tool that doesn't lock you into one approach.",
       },
     },
     {
       "@type": "Question",
-      name: "How much should hosting cost for a small business?",
+      name: "What project management tools are best for small teams?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Small business hosting typically ranges from $5–$50/month for shared/VPS plans. Shared hosting plans start around $3–$10/month, while managed VPS starts at $15–$30/month. For e-commerce sites requiring PCI compliance and higher performance, expect to spend $30–$200/month. Enterprise-grade dedicated servers or cloud instances can range from $100–$1,000+/month depending on configuration.",
+        text: "For small teams (2–20 people), consider Asana for its intuitive interface and goal tracking, Monday.com for visual project boards and templates, Trello for simple Kanban workflows, or ClickUp for the best feature-to-price ratio. Notion is excellent for teams that need docs + project management in one tool. Most of these offer free tiers for small teams, making them low-risk to try.",
       },
     },
     {
       "@type": "Question",
-      name: "What's the difference between managed and unmanaged hosting?",
+      name: "How do I choose enterprise-grade project management software?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Managed hosting means the provider handles server administration — security patches, OS updates, monitoring, backups, and technical support. You focus on your application. Unmanaged hosting gives you full root access but requires you to handle all server maintenance, security hardening, and troubleshooting. Managed hosting costs more (typically 2–3x) but saves time and reduces technical risk. Unmanaged is suitable if you have DevOps expertise.",
+        text: "Enterprise PM tools must support portfolio management, cross-project resource planning, advanced security (SSO, SAML, SOC 2), compliance reporting, API integrations, and role-based access controls. Top enterprise options include Jira Align for scaled agile, Microsoft Project for traditional PM, ServiceNow for IT-centric organizations, and Smartsheet for spreadsheet-like flexibility. Evaluate your organization size, compliance requirements, and integration ecosystem before committing.",
       },
     },
     {
       "@type": "Question",
-      name: "What is a CDN and do I need one?",
+      name: "Which Gantt chart tools are best for project scheduling?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A CDN (Content Delivery Network) is a distributed network of servers that cache and deliver your website content from locations closer to your visitors. CDNs improve load times, reduce server load, and provide DDoS protection. Most growing websites benefit from a CDN — especially those with global audiences, media-heavy content, or e-commerce stores. Many hosting providers include basic CDN support or integrate with Cloudflare.",
+        text: "For dedicated Gantt chart capabilities, Microsoft Project remains the gold standard for traditional project scheduling with critical path analysis and resource leveling. GanttPRO offers a modern, intuitive Gantt-focused platform. TeamGantt simplifies Gantt charts for non-project managers. Among general PM tools, Asana's timeline view, Monday.com's Gantt view, and ClickUp's Gantt view all offer solid scheduling features. Choose based on whether you need standalone Gantt functionality or integrated project management.",
       },
     },
     {
       "@type": "Question",
-      name: "How do hosting companies ensure data security?",
+      name: "How important is time tracking integration in PM tools?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Reputable hosting providers implement encryption at rest and in transit, SOC 2 Type II audits, ISO 27001 certification, GDPR compliance, regular penetration testing, multi-factor authentication, DDoS protection, firewalls, and automated backup systems. Always verify a provider's security posture before committing, especially if handling sensitive customer data.",
+        text: "Time tracking integration is essential for agencies, consultancies, and any team billing by the hour. Native time tracking tools like Toggl Track, Harvest, and Clockify integrate with most major PM platforms. Asana, ClickUp, and Monday.com offer built-in time tracking on paid plans. For payroll and invoicing workflows, look for tools that sync with QuickBooks, Xero, or Gusto. Good time tracking also powers accurate project estimation and resource planning.",
       },
     },
     {
       "@type": "Question",
-      name: "What is the typical contract length for hosting plans?",
+      name: "How are project management tools priced?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Most hosting providers offer monthly, annual, and multi-year (2–3 year) billing cycles. Monthly billing offers maximum flexibility but higher rates. Annual billing typically saves 15–30%. Multi-year plans offer the deepest discounts (up to 50% off) but lock you in. Month-to-month plans are ideal for testing a provider, while annual plans suit stable, long-term projects. Most providers offer a 30-day money-back guarantee regardless of billing cycle.",
+        text: "PM tools typically use per-user-per-month pricing with tiered feature levels. Free plans support 10–15 users with basic features. Paid plans range from $7–$15/user/month (basic), $15–$30/user/month (business with automation/reporting), to custom enterprise pricing. Some tools like Asana and Monday.com require annual commitments for best rates. ClickUp offers the most features per dollar. Always factor in total cost including any required add-ons for time tracking, guests, or premium support.",
       },
     },
     {
       "@type": "Question",
-      name: "How do hosting reviews and ratings work?",
+      name: "Should I choose cloud-based or on-premises project management software?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Hosting reviews are collected from verified customers on platforms like G2, Trustpilot, and specialized review sites. Users rate providers on criteria like uptime, speed, support quality, value for money, and ease of use. Always read recent reviews and look for patterns rather than outliers. ProjectMgmtTools synthesizes reviews across multiple platforms to give you a balanced view of each provider's strengths and weaknesses.",
+        text: "Cloud-based PM tools (SaaS) offer automatic updates, accessibility from anywhere, lower upfront costs, and vendor-managed security. They're best for most teams. On-premises deployment provides full data control, air-gapped security, and customization but requires IT infrastructure, maintenance, and higher upfront investment. On-premises is typically chosen by government agencies, defense contractors, and highly regulated industries. Jira Data Center and Microsoft Project Server are popular on-premises options.",
       },
     },
     {
       "@type": "Question",
-      name: "What is the future of web hosting?",
+      name: "What collaboration features should I look for?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "The hosting industry is being transformed by edge computing, serverless architectures, AI-powered management tools, green hosting initiatives, and containerization (Kubernetes/Docker). Cloud hosting continues to grow as businesses move away from physical servers. Managed hosting is also evolving with AI-driven performance optimization and automated scaling. The global cloud hosting market is projected to exceed $200 billion by 2030.",
+        text: "Key collaboration features include real-time editing, comments and @mentions on tasks, file sharing with version history, shared calendars, whiteboards or mind maps, and native video/audio chat. Asana excels at cross-team collaboration with goals and portfolios. Monday.com offers the most visual team dashboards. ClickUp provides Docs with real-time collaboration. Notion combines docs, wikis, and PM in one workspace. Consider how your team communicates — some prefer task-centric comments, others want a separate chat tool integrated.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can project management tools integrate with Slack and Microsoft Teams?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, most major PM tools offer deep integrations with Slack and Microsoft Teams. Asana and Monday.com have native Slack apps that let you create tasks from messages, receive notifications, and update task status without leaving Slack. ClickUp offers two-way sync with Slack. Jira integrates with both Slack and Teams for developer workflows. Integration quality varies — look for bidirectional sync, slash commands, and notification filtering to avoid alert fatigue.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What should I consider when migrating between project management tools?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Key migration considerations include: data export capabilities (CSV, JSON, API access), task history preservation, file attachment transfer, user adoption training, and potential downtime. Budget for at least 2–4 weeks of parallel running. Most vendors offer assisted migration — Asana has an importer from Trello and Jira, Monday.com offers automated migrations. The hardest part is usually user adoption, not data migration. Plan training sessions and designate champions in each team.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What's the difference between task management and project management software?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Task management tools (like Todoist, TickTick, or Microsoft To Do) focus on individual to-do lists with basic organization. Project management software adds portfolio-level visibility, resource management, dependency tracking, timeline planning (Gantt charts), budgeting, and reporting. As your team grows beyond 5–10 people working on multiple projects simultaneously, you'll likely need to graduate from task management to full project management software for cross-project oversight.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How do I evaluate PM tool security and compliance?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Evaluate PM tool security by checking: SOC 2 Type II certification, data encryption at rest and in transit, GDPR/CCPA compliance, SSO/SAML support, data residency options, backup policies, and penetration testing frequency. Enterprise tools typically offer the strongest security posture. For regulated industries, look for HIPAA compliance (necessary for healthcare projects), FedRAMP authorization, or ISO 27001 certification. Review the vendor's security page and request their SOC 2 report before purchasing.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can project management software help with remote team management?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Absolutely. PM tools are essential for remote and hybrid teams, providing async communication, transparent task ownership, progress visibility, and shared timelines. Look for features like workload view (to prevent burnout), time zone support, async video updates (like Loom integration), and status reporting. Tools like Asana and Monday.com offer dashboard views that give managers real-time visibility into team progress without micromanaging daily standups.",
       },
     },
   ],
@@ -120,7 +160,7 @@ export default function FAQPage() {
             Frequently Asked Questions
           </h1>
           <p className="text-[#839BBE] text-lg">
-            Everything you need to know about choosing the right hosting provider.
+            Everything you need to know about choosing the right project management software.
           </p>
         </div>
 

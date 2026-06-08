@@ -35,7 +35,7 @@ const CATEGORY_DESCRIPTIONS: Record<string, string> = {
   Sales: "Sales engagement and enablement platforms help revenue teams automate outreach, manage pipelines, and close deals faster with data-driven selling tools.",
   Data: "Data management and integration platforms for ETL, data warehousing, data quality, and master data management. Compare solutions for your data infrastructure needs.",
   "E-Commerce": "E-commerce platforms and tools for building online stores, managing product catalogs, processing payments, and optimizing conversion rates.",
-  Infrastructure: "Cloud infrastructure and hosting platforms for compute, storage, networking, and serverless computing. Compare providers for your cloud architecture needs.",
+  Infrastructure: "Cloud infrastructure platforms for compute, storage, networking, and serverless computing. Compare providers for your cloud architecture needs.",
   "E-Signature": "Electronic signature solutions for legally binding digital signatures, document workflows, and contract automation. Streamline your agreement processes.",
   "A/B Testing": "A/B testing and experimentation platforms for optimizing websites, mobile apps, and marketing campaigns through data-driven testing and personalization.",
   FinTech: "Financial technology solutions including payment gateways, lending platforms, investment tools, and banking APIs for modern financial services.",

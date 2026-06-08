@@ -10,7 +10,7 @@ interface JsonLdProps {
 export default function JsonLd({
   siteName = 'ProjectMgmtTools',
   siteUrl = 'https://projectmgmtools.net',
-  description = 'Honest hosting reviews and comparisons for modern businesses.',
+  description = 'Independent project management software directory. Compare, review, and discover the best PM tools for your team.',
 }: JsonLdProps) {
   useEffect(() => {
     const script = document.createElement('script');

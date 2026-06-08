@@ -67,7 +67,7 @@ export default function ToolDetailPage() {
     const org = organizationSchema(
       'ProjectMgmtTools',
       'https://projectmgmtools.net',
-      'Honest hosting reviews and comparisons for modern businesses.'
+      'Independent project management software directory. Compare, review, and discover the best PM tools for your team.'
     );
     const s2 = document.createElement('script');
     s2.type = 'application/ld+json';

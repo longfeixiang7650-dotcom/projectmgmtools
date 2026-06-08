@@ -38,8 +38,7 @@ export default function TermsPage() {
             <h2 className="text-xl font-bold text-[#F0F2FE] mb-3">2. Description of Service</h2>
             <p>
               ProjectMgmtTools is a curated directory platform that provides information,
-              comparisons, reviews, and pricing details about business-to-email marketing software-as-a-
-              service tools. Our platform serves as a research and discovery resource. We do not
+              comparisons, reviews, and pricing details about project management software tools. Our platform serves as a research and discovery resource. We do not
               sell, license, or distribute the software products listed on our Site unless
               explicitly stated otherwise.
             </p>
