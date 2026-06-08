@@ -5,6 +5,7 @@ const BLOG_SLUGS = [
     "asana-vs-monday-vs-jira-2026-ppm-showdown",
     "project-management-software-buyers-guide-2026",
     "agile-vs-waterfall-choosing-the-right-pm-methodology",
+    "the-rise-of-ai-in-project-management-2026",
 ] as const;
 
 const TOOL_SLUGS = [

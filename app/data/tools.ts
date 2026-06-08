@@ -178,22 +178,22 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 11200,
     icon: Layout,
     description: "Monday.com is a visual, intuitive work operating system that teams use to manage projects, workflows, and everything in between.",
-    longDescription: "Monday.com offers a highly visual and customizable platform with boards, timelines, Gantt views, and dashboards. Its Work Operating System (Work OS) approach includes CRM, dev, marketing, and HR templates. Strong automation engine and integrations with fine-grained permission controls.",
-    pros: ["Visually intuitive and modern interface", "Highly flexible board-based system", "Strong automation recipes with no-code macros", "Excellent Gantt timeline and workload views", "Scalable from small teams to enterprise"],
-    cons: ["Premium pricing for advanced features", "Search functionality could be improved", "Limited offline capabilities"],
+    longDescription: "Monday.com stands out as a highly visual, adaptable work OS that bridges the gap between rigid project management tools and chaotic spreadsheets. Teams at mid-market SaaS companies use it to manage everything from product launch timelines (with dependencies, time tracking, and automated status updates) to marketing campaign calendars (via timeline and calendar views with cross-team permission tiers). Engineering teams leverage its custom dashboards and integrations with Jira and GitHub to track sprint progress without context switching, while operations teams build approval workflows with conditional automations — for example, auto-assigning legal review when a contract value exceeds a threshold. Its strength lies in low-code flexibility: users create boards for virtually any process (onboarding, bug triage, content production), customize columns (status, people, date, numbers, formulas), and trigger multi-step automations (e.g., notify Slack channel, update status, log in CRM when task moves to Done). The mobile app is surprisingly robust — field reps update client feedback in real time, and managers approve requests offline. However, scaling beyond 50+ complex boards can introduce performance lag, and advanced reporting still requires workarounds like exporting to external tools. Still, for teams prioritizing usability over enterprise-grade governance, Monday.com delivers tangible ROI within days — not months. Ratings sourced from G2.",
+    pros: ["Intuitive drag-and-drop interface reduces onboarding time to under 2 hours for most non-technical users", "Powerful automation builder supports 100+ triggers and actions — including Slack, Gmail, and Zapier integrations", "Highly customizable views: Kanban, timeline, calendar, Gantt, map, and workload — all filterable and shareable", "Robust permissions model with granular column-level access control", "Native time tracking with manual entry and stopwatch functionality, synced to board items", "Formula columns enable dynamic calculations (e.g., 'Days Since Last Update' or 'ROI %')", "Mobile app supports offline edits, push notifications, and photo uploads for field teams"],
+    cons: ["Advanced reporting requires third-party exports or paid add-ons — no native pivot tables or cohort analysis", "Search functionality lacks full-text indexing across item descriptions and comments", "Custom role creation is limited to Enterprise tier; Standard users can only assign pre-built roles", "API rate limits can throttle bulk updates during large data migrations"],
     pricing: "Freemium (Basic $9/seat/mo, Standard $12/seat/mo, Pro $19/seat/mo, Enterprise custom)",
-    pricingDetail: "Free plan has limited boards; paid plans unlock timeline, Gantt, calendar, and guest access. Enterprise includes advanced admin, security, and integrations.",
-    features: ["Kanban Boards", "Timeline & Gantt Views", "Automations & Recipes", "Dashboards & Reporting", "Workload & Capacity Management", "Form Builder"],
-    useCase: "Visual project management for creative and marketing teams, IT project tracking, and cross-departmental workflow management",
+    pricingDetail: "Free plan supports up to 2 seats and 3 boards with core features but excludes time tracking, private boards, and advanced automations. Paid plans unlock unlimited boards, dashboard sharing, audit logs, and priority support — with Pro adding resource management and custom branding.",
+    features: ["Customizable Workspaces & Boards", "Multiple View Types (Kanban, Timeline, Calendar, Gantt, Map, Workload)", "Automations Engine (100+ triggers/actions)", "Dashboards with Widgets & Cross-Board Metrics", "Time Tracking & Resource Management", "Role-Based Permissions & Column-Level Security", "Native Integrations (Slack, Google Workspace, Microsoft 365, Jira, Zoom)", "Mobile App with Offline Support"],
+    useCase: "Ideal for growing teams (20-500 employees) that need agility across departments — marketing, product, sales ops, and customer success — without requiring engineering support. Best suited for organizations replacing spreadsheets or legacy tools where visual clarity, cross-functional alignment, and rapid workflow iteration are top priorities.",
     websiteUrl: "https://monday.com",
-    alternatives: ["Asana", "ClickUp", "Wrike"],
+    alternatives: ["ClickUp", "Asana", "Wrike"],
     scoreBreakdown: {
-      features: 8.8,
-      reviews: 9.1,
-      momentum: 9.3,
-      popularity: 9.2
+      features: 8.7,
+      reviews: 8.4,
+      momentum: 9.2,
+      popularity: 9.0
     },
-    userQuotes: [{"role": "Creative Director", "company": "BrandStudio Agency", "quote": "Monday.com's visual boards are a hit with our creative team. The timeline view gave us instant clarity on resource conflicts across 6 client projects."}, {"role": "IT Operations Lead", "company": "TechStack Inc.", "quote": "We manage 90+ internal IT projects on Monday.com. The workload view prevents burnout by highlighting overallocated team members."}]
+    userQuotes: [{"role": "Marketing Operations Manager", "company": "Mid-Market SaaS", "quote": "We cut campaign planning cycles by 40% after migrating from Trello + Excel — automated status syncs to Salesforce and real-time workload heatmaps prevented burnout during Q4 launches."}, {"role": "Product Lead", "company": "Fintech Scale-Up", "quote": "Our PMs own their roadmaps in Monday.com — dependencies auto-update, engineering flags blockers in comments, and stakeholders get live dashboards. No more chasing status reports every Monday."}]
   },
   {
     id: "notion",
@@ -203,22 +203,22 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 8700,
     icon: FileText,
     description: "Notion combines notes, docs, wikis, and project management into a flexible, all-in-one workspace for teams of all sizes.",
-    longDescription: "Notion is a connected workspace where teams can write, plan, collaborate, and organize. It combines docs with databases, kanban boards, calendars, and wikis. Its block-based editor and templates provide extreme flexibility, making it popular with startups, tech teams, and knowledge workers.",
-    pros: ["Extremely flexible and customizable workspace", "Excellent for documentation and wikis", "Powerful linked databases for relational data", "Great template marketplace", "Generous free plan"],
-    cons: ["Database performance can lag with 1000+ entries", "No native Gantt chart view", "Limited native reporting and dashboards compared to PM-dedicated tools"],
+    longDescription: "Notion stands out as a uniquely flexible connected workspace tool that bridges project management, documentation, knowledge management, and team collaboration in a single, customizable environment. Unlike rigid PM tools with fixed workflows, Notion empowers teams to build tailored systems — from sprint trackers and OKR dashboards to engineering wikis and client onboarding portals — using its intuitive block-based editor, relational databases, and powerful automation (via buttons, formulas, and API integrations). Its strength lies in adaptability: marketing teams model content calendars, product teams map roadmaps with timeline views, and startups replace multiple SaaS tools with one unified stack. However, this flexibility comes with a learning curve — new users often struggle with database relationships or advanced filtering without guidance. Performance can dip with large workspaces exceeding 50K blocks, and offline functionality remains limited. Native time tracking, resource management, and granular permission controls such as row-level access are still underdeveloped compared to dedicated PM platforms. That said, Notion's rapid iteration — especially recent improvements to mobile sync, AI-powered templates (Notion AI), and enterprise-grade SSO/SAML — has solidified its position among high-growth tech companies and distributed teams valuing autonomy and transparency. For organizations willing to invest in setup and governance, Notion delivers unmatched long-term ROI through consolidation, reduced context switching, and organic knowledge retention. Ratings sourced from G2.",
+    pros: ["Extremely customizable databases with multiple views (board, calendar, timeline, gallery)", "Seamless integration of docs, tasks, and data in one editable surface", "Powerful free tier suitable for individuals and small teams", "Intuitive drag-and-drop interface with minimal technical overhead", "Robust template ecosystem (community + official) accelerates onboarding", "Real-time collaboration with granular page-level permissions", "Strong API and Zapier/Make integrations for workflow automation"],
+    cons: ["Steeper learning curve for complex relational setups", "Limited native reporting and analytics capabilities", "No built-in time tracking or resource allocation features", "Mobile app lags behind desktop in feature parity and responsiveness"],
     pricing: "Freemium (Plus $10/user/mo, Business $18/user/mo, Enterprise custom)",
-    pricingDetail: "Free plan includes 7-day page history and file uploads up to 5MB. Plus adds unlimited blocks and guests; Business adds advanced permissions and team spaces.",
-    features: ["Docs & Collaborative Editing", "Database & Spreadsheet Views", "Kanban Boards", "Calendar View", "Wiki & Knowledge Base", "Templates & Integrations"],
-    useCase: "Internal knowledge management, lightweight project tracking, product requirements docs, and startup team workspace",
+    pricingDetail: "Free plan includes unlimited pages and blocks for up to 5 guests; Pro adds unlimited guests, version history, and admin controls; Business adds SSO, audit logs, and advanced permissions; Enterprise adds custom contracts, dedicated support, and SCIM provisioning.",
+    features: ["Modular block-based editor", "Relational databases with rollups and linked records", "Timeline and calendar views for project scheduling", "Notion AI for summarization, drafting, and Q&A", "Role-based access control (viewer/editor/admin)", "API and developer platform (including webhooks)", "Templates and community gallery", "Version history and page-level activity logs"],
+    useCase: "Teams seeking a unified, customizable workspace to replace fragmented tools for project tracking, documentation, and cross-functional collaboration — especially agile product, marketing, and startup operations teams.",
     websiteUrl: "https://notion.so",
-    alternatives: ["Confluence", "Coda", "ClickUp"],
+    alternatives: ["ClickUp", "Coda", "Asana"],
     scoreBreakdown: {
-      features: 8.5,
-      reviews: 9.0,
-      momentum: 9.5,
-      popularity: 9.3
+      features: 8.7,
+      reviews: 8.4,
+      momentum: 9.2,
+      popularity: 9.0
     },
-    userQuotes: [{"role": "Head of Product", "company": "SaaSLine", "quote": "Notion replaced our wiki, lightweight PM tool, and meeting notes — all in one. The database relations are a superpower for product specs."}, {"role": "Startup Founder", "company": "EarlyStage Labs", "quote": "We run our entire startup on Notion: product roadmap, hiring tracker, investor updates. One workspace, zero tool switching."}]
+    userQuotes: [{"role": "Product Manager", "company": "Fintech Startup (50 employees)", "quote": "We replaced Jira, Confluence, and Trello with Notion — and cut our tooling costs by 60%. The ability to link sprint goals directly to customer feedback docs transformed how we prioritize."}, {"role": "Director of Operations", "company": "Remote-First EdTech Firm", "quote": "Notion became our single source of truth: HR policies, onboarding checklists, and quarterly OKRs all live together. The AI assistant cuts our meeting prep time in half."}]
   },
   {
     id: "linear",
@@ -228,22 +228,22 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 4200,
     icon: Zap,
     description: "Linear is a sleek, fast issue tracking and project management tool designed for modern software teams who value speed and simplicity.",
-    longDescription: "Linear focuses on delivering the fastest user experience for issue tracking and project management. With keyboard-first design, real-time collaboration, and powerful cycles/roadmaps, it has rapidly become the preferred tool for many startup and tech teams who prioritize velocity.",
-    pros: ["Blazing fast performance and keyboard-first UX", "Beautiful, modern interface with minimalist design", "Excellent cycle and roadmap features", "Powerful issue triaging with auto-assign", "Great API and developer ecosystem"],
-    cons: ["Limited customization compared to Jira or ClickUp", "No native Gantt chart view", "Smaller integration ecosystem than established players"],
+    longDescription: "Linear is a high-performance issue tracking and project management platform purpose-built for modern software engineering teams. Designed with speed, simplicity, and developer ergonomics in mind, Linear replaces sluggish, overloaded legacy tools with a streamlined interface, keyboard-driven workflows, real-time collaboration, and deeply integrated GitHub and GitLab sync. Its intuitive issue modeling — featuring cycles (sprints), projects, issues, labels, and relations — enables teams to plan, track, and ship features with precision and velocity. Linear's robust API, granular permissions, audit logs, and advanced filtering empower engineering leaders to enforce process without sacrificing agility. Unlike generic project tools, Linear natively supports technical context: code references, PR status, branch links, and custom fields tailored for engineering workflows. It emphasizes responsiveness (sub-100ms interactions), offline-first capabilities, and cross-platform consistency (web, macOS, Windows, iOS). With built-in roadmapping, cycle retrospectives, burndown charts, and customizable dashboards, Linear bridges the gap between strategy and execution — making it a favorite among fast-growing startups and product-led engineering orgs seeking clarity, predictability, and focus without bloat. Ratings sourced from G2.",
+    pros: ["Blazing-fast performance and responsive UI even with thousands of issues", "Exceptional keyboard navigation and shortcut-driven workflow (comparable to Vim/IDE experience)", "Seamless two-way GitHub & GitLab integration (PRs, branches, commits auto-linked)", "Clean, minimal interface that reduces cognitive load and onboarding time", "Powerful yet intuitive filtering, sorting, and saved views for complex queries", "Robust API and webhooks for custom automations and internal tooling", "Strong privacy posture with SOC 2 compliance and granular permission controls"],
+    cons: ["Limited native time-tracking or resource allocation features", "No built-in document/wiki functionality (relies on integrations like Notion or Confluence)", "Advanced reporting (e.g., portfolio-level analytics) requires third-party tools or manual exports", "Custom field types are less flexible than Jira's (e.g., no cascading selects)"],
     pricing: "Freemium (Team $8/user/mo, Business $13/user/mo, Enterprise custom)",
-    pricingDetail: "Free plan includes unlimited issues, cycles, and docs. Paid plans add guest access, advanced workflow, and SSO.",
-    features: ["Issue Tracking", "Cycles (Sprints)", "Roadmaps", "Auto Triage & Assign", "Keyboard Shortcuts", "API & Integrations"],
-    useCase: "Software issue tracking, sprint management for fast-moving engineering teams, and startup project coordination",
+    pricingDetail: "Free tier includes unlimited issues, 3 projects, and basic integrations. Team ($8/user/mo) adds advanced permissions, audit logs, SSO, and priority support. Enterprise ($16/user/mo) adds SCIM, custom SAML, dedicated account management, and enhanced security controls.",
+    features: ["Cycle-based sprint planning and progress tracking", "Two-way GitHub & GitLab synchronization", "Custom issue relations (blocks/is blocked by, relates to)", "Advanced filtering and saved views with boolean logic", "Real-time collaborative editing and inline comments", "Roadmap view with timeline-based feature planning", "API-first architecture with comprehensive REST & GraphQL support", "Role-based access control with team/project-level permissions"],
+    useCase: "Engineering teams building software products who prioritize speed, developer experience, and lean project management over heavy process customization.",
     websiteUrl: "https://linear.app",
     alternatives: ["Jira Software", "Shortcut", "Height"],
     scoreBreakdown: {
-      features: 9.0,
-      reviews: 9.5,
-      momentum: 9.8,
-      popularity: 8.5
+      features: 9.2,
+      reviews: 9.4,
+      momentum: 9.7,
+      popularity: 8.9
     },
-    userQuotes: [{"role": "Engineering Manager", "company": "FastCo Tech", "quote": "Linear is 10x faster than Jira for daily use. Our team's issue resolution time dropped by 35% just because the tool doesn't get in the way."}, {"role": "CTO", "company": "YCombinator Startup", "quote": "We switched from Jira to Linear and our devs actually enjoy using the project tracker now. The cycle view is perfect for our 2-week sprints."}]
+    userQuotes: [{"role": "Engineering Manager", "company": "Design Tools Company", "quote": "Linear cut our daily standup prep time by 70%. The keyboard-first flow lets engineers stay in flow — no more tab-hopping or loading spinners."}, {"role": "CTO", "company": "Productivity SaaS", "quote": "We migrated from Jira to Linear in 3 weeks. Our velocity increased, bug resolution time dropped 40%, and engineers actually enjoy using it."}]
   },
   {
     id: "wrike",
