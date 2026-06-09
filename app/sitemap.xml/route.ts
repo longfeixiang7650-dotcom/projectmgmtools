@@ -6,6 +6,7 @@ const BLOG_SLUGS = [
     "project-management-software-buyers-guide-2026",
     "agile-vs-waterfall-choosing-the-right-pm-methodology",
     "the-rise-of-ai-in-project-management-2026",
+  "top-10-project-management-software-2026-comparison",
 ] as const;
 
 const TOOL_SLUGS = [
