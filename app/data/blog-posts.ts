@@ -75,7 +75,7 @@ Also: negotiate contract terms *before* signing. Demand clear exit clauses, data
 ## Conclusion
 
 In 2026, the best project management tool isn't the most powerful—it's the one your team uses *consistently*, without friction or workarounds. Resist the allure of AI-powered 'smart suggestions' if your team struggles with basic status updates. Focus first on workflow fidelity, permission control, and sustainable TCO. Pilot rigorously—not with hypotheticals, but with live data and real roles. And remember: no tool replaces clear goals, empowered leads, or psychological safety. The right software amplifies those. Everything else is just overhead.`,
-    author: "James Mitchell",
+    author: "Brian Scott",
     authorRole: "Project Management & Workflow Analyst",
     date: "2026-06-07",
     category: "Project Management",
@@ -297,7 +297,7 @@ Monday.com has the strongest mobile experience (rated 4.3/5 on app stores), foll
 Yes, but migration is non-trivial. All three platforms offer CSV and API-based import/export. Third-party tools like Unito and Zapier can help maintain sync during transitions. Expect 2-4 weeks for a full team migration and another 2-4 weeks for full adoption of the new tool.
 
 *Sources: G2 Project Management Grid Reports (Spring 2026), Capterra Project Management Reviews (2026), TrustRadius Verified Reviews (2026), official vendor pricing pages (accessed June 2026). All ratings and statistics reflect user experiences as of June 2026.*`,
-    author: "James Mitchell",
+    author: "Brian Scott",
     authorRole: "Project Management & Workflow Analyst",
     date: "2026-06-07",
     category: "Project Management",
@@ -458,7 +458,7 @@ Cloud (SaaS) is recommended for most teams — lower upfront cost, automatic upd
 Selecting the right project management software in 2026 comes down to honest self-assessment of your team's workflows, adoption readiness, and budget constraints. Start with your requirements, not the latest demo. Use the categories and criteria framework above to filter options systematically. And always run a structured pilot before committing — 14 days with real projects and real team members is worth more than any vendor pitch deck or analyst report.
 
 *Sources: Gartner Magic Quadrant for Project and Portfolio Management (2026), Forrester Wave for Agile PM Tools (2026), G2 Project Management Grid Reports (Spring 2026), Capterra Project Management Reviews (2026).*`,
-    author: "James Mitchell",
+    author: "Brian Scott",
     authorRole: "Project Management & Workflow Analyst",
     date: "2026-06-09",
     category: "Project Management",
@@ -659,7 +659,7 @@ Don't let the Agile vs Waterfall debate become a religious war. The right method
 As project management expert Mike Griffiths said: "Methodologies are tools, not dogmas. The best teams know when to use a hammer and when to use a screwdriver."
 
 *Sources: PMI's Pulse of the Profession (2026), State of Agile Report (2025), VersionOne 16th Annual State of Agile Survey, Gartner Hype Cycle for PPM (2026), Forrester Agile Delivery Services Landscape (2026).*`,
-    author: "James Mitchell",
+    author: "Brian Scott",
     authorRole: "Project Management & Workflow Analyst",
     date: "2026-06-08",
     category: "Project Management",
@@ -725,7 +725,7 @@ Three essentials: clean historical data (6+ months structured), cross-functional
 
 AI in project management in 2026 is about doing better with clarity. Intelligent automation removes noise, surfaces truth, and amplifies human judgment. The most successful teams align AI capabilities with their unique culture, constraints, and values — choosing tools that augment people, not obscure accountability. The future is augmented, empathetic, and relentlessly adaptive.
 `,
-    author: "James Mitchell",
+    author: "Brian Scott",
     authorRole: "Project Management and Workflow Analyst",
     date: "2026-06-08",
     category: "Project Management",
@@ -785,7 +785,7 @@ Absolutely—and increasingly, teams do. 41% of Airtable’s active users now ma
 
 ## Conclusion  
 There’s no universal winner—but if you’re choosing *today*, match your team’s DNA: Jira for engineering rigor, ClickUp for all-in-one ambition, Trello for lean speed, and Smartsheet for enterprise control. Your workflow—not the vendor’s marketing—should drive the decision.`,
-    author: "James Mitchell",
+    author: "Brian Scott",
     authorRole: "Project Management & Workflow Analyst",
     date: "2026-06-09",
     category: "Project Management",

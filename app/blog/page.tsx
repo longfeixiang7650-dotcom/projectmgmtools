@@ -26,12 +26,11 @@ export default function BlogPage() {
             Blog
           </span>
           <h1 className="text-3xl md:text-5xl font-extrabold text-[#F0F2FE] tracking-tight mb-3">
-            Insights &{" "}
-            <span className="text-gradient">Expert Analysis</span>
+            Project Management{" "}
+            <span className="text-gradient">Insights</span>
           </h1>
           <p className="text-lg text-[#839BBE] max-w-2xl mx-auto">
-            In-depth comparisons, buying guides, and strategies to help you make
-            smarter project management tool decisions.
+            In-depth comparisons of project management tools, agile platforms, and collaboration software. Expert guides to help you manage projects effectively.
           </p>
         </div>
 
