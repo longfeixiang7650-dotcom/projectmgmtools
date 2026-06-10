@@ -7,6 +7,7 @@ const BLOG_SLUGS = [
     "agile-vs-waterfall-choosing-the-right-pm-methodology",
     "the-rise-of-ai-in-project-management-2026",
   "top-10-project-management-software-2026-comparison",
+  "trello-vs-basecamp-vs-shortcut-vs-teamwork-2026-team-size-comparison",
 ] as const;
 
 const TOOL_SLUGS = [
