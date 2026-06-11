@@ -8,6 +8,7 @@ const BLOG_SLUGS = [
     "the-rise-of-ai-in-project-management-2026",
   "top-10-project-management-software-2026-comparison",
   "trello-vs-basecamp-vs-shortcut-vs-teamwork-2026-team-size-comparison",
+  "best-pm-software-2026-ultimate-comparison",
 ] as const;
 
 const TOOL_SLUGS = [
