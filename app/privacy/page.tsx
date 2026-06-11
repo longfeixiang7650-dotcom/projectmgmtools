@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — ProjectMgmtTools",
+  title: "Privacy Policy — ProjectMgmtTools by Sapphire Labs",
   description:
     "Learn how ProjectMgmtTools collects, uses, and protects your personal data. Our privacy policy outlines our commitment to your privacy and data security.",
 };
@@ -149,7 +149,7 @@ export default function PrivacyPage() {
               <li><strong>Right to Opt Out (CCPA):</strong> California residents may opt out of the sale of their personal information. We do not sell personal information.</li>
             </ul>
             <p className="mt-3">
-              To exercise any of these rights, please contact us at privacy@projectmgmtools.net. We
+              To exercise any of these rights, please contact us at privacy@sapphirelabs.dev. We
               will respond to your request within 30 days.
             </p>
           </section>
@@ -182,7 +182,7 @@ export default function PrivacyPage() {
               knowingly collect personal information from children. If we become aware that a
               child has provided us with personal data, we will delete it immediately. Parents
               or guardians who believe their child has submitted information to us should contact
-              us at privacy@projectmgmtools.net.
+              us at privacy@sapphirelabs.dev.
             </p>
           </section>
 
@@ -211,10 +211,10 @@ export default function PrivacyPage() {
               If you have questions about this Privacy Policy or our data practices, please
               contact us:
             </p>
-            <div className="mt-4 p-5 bg-[#0F1F2D] border border-[#1E3A5F] rounded-xl">
-              <p className="mb-2"><strong className="text-[#F0F2FE]">Email:</strong> privacy@projectmgmtools.net</p>
-              <p className="mb-2"><strong className="text-[#F0F2FE]">Support:</strong> support@projectmgmtools.net</p>
-              <p><strong className="text-[#F0F2FE]">Address:</strong> 200 State Street, Boston, MA 02109</p>
+            <div className="mt-4 p-5 rounded-xl" style={{ backgroundColor: "#0d1e3c", border: "1px solid rgba(29,78,216,0.25)" }}>
+              <p className="mb-2"><strong style={{ color: "#f0f4ff" }}>Email:</strong> privacy@sapphirelabs.dev</p>
+              <p className="mb-2"><strong style={{ color: "#f0f4ff" }}>Support:</strong> support@sapphirelabs.dev</p>
+              <p><strong style={{ color: "#f0f4ff" }}>Address:</strong> Sapphire Labs, Salt Lake City, UT 84101</p>
             </div>
           </section>
         </div>

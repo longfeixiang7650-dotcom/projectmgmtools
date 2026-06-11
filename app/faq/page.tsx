@@ -153,13 +153,14 @@ export default function FAQPage() {
       <div className="max-w-[800px] mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <span className="inline-block text-xs font-semibold uppercase tracking-wider text-[#0891B2] bg-[#162540] px-3 py-1.5 rounded-md mb-4">
+          <span className="inline-block text-xs font-semibold uppercase tracking-wider px-3 py-1.5 rounded-md mb-4"
+            style={{ color: "#60a5fa", backgroundColor: "rgba(29,78,216,0.15)" }}>
             FAQ
           </span>
-          <h1 className="text-3xl md:text-4xl font-extrabold text-[#F0F2FE] tracking-tight mb-3">
+          <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight mb-3" style={{ color: "#f0f4ff" }}>
             Frequently Asked Questions
           </h1>
-          <p className="text-[#839BBE] text-lg">
+          <p className="text-lg" style={{ color: "#93b4e8" }}>
             Everything you need to know about choosing the right project management software.
           </p>
         </div>
@@ -169,19 +170,21 @@ export default function FAQPage() {
           {FAQ_ITEMS.map((item, index) => (
             <div
               key={index}
-              className="bg-[#0F1F2D] border border-[#1E3A5F] rounded-xl overflow-hidden transition-all duration-200"
+              className="rounded-xl overflow-hidden transition-all duration-200"
+              style={{ backgroundColor: "#0d1e3c", border: "1px solid rgba(29,78,216,0.25)" }}
             >
               <button
                 onClick={() => toggleFAQ(index)}
                 className="w-full flex items-center justify-between px-6 py-5 text-left"
               >
-                <span className="text-[#F0F2FE] font-semibold text-sm pr-4">
+                <span className="font-semibold text-sm pr-4" style={{ color: "#f0f4ff" }}>
                   {item.question}
                 </span>
                 <ChevronDown
-                  className={`w-5 h-5 text-[#839BBE] flex-shrink-0 transition-transform duration-200 ${
+                  className={`w-5 h-5 flex-shrink-0 transition-transform duration-200 ${
                     openIndex === index ? "rotate-180" : ""
                   }`}
+                  style={{ color: "#93b4e8" }}
                 />
               </button>
               <div
@@ -189,7 +192,8 @@ export default function FAQPage() {
                   openIndex === index ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
                 }`}
               >
-                <div className="px-6 pb-5 text-[#839BBE] text-sm leading-relaxed border-t border-[#1E3A5F] pt-4">
+                <div className="px-6 pb-5 text-sm leading-relaxed pt-4"
+                  style={{ color: "#93b4e8", borderTop: "1px solid rgba(29,78,216,0.2)" }}>
                   {item.answer}
                 </div>
               </div>

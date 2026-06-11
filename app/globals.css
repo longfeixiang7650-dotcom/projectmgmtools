@@ -6,28 +6,28 @@
 
 @layer base {
   :root {
-    --orange: #F97316;
-    --orange-light: #FFF7ED;
-    --orange-soft: #FED7AA;
+    --blue: #1d4ed8;
+    --blue-dark: #0a1628;
+    --blue-mid: #0d1e3c;
     --radius: 0.625rem;
   }
 
   body {
     font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
-    background-color: #ffffff;
-    color: #111827;
+    background-color: #0a1628;
+    color: #f0f4ff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 
   * {
-    border-color: #E5E7EB;
+    border-color: rgba(29, 78, 216, 0.25);
   }
 }
 
 @layer components {
   ::-webkit-scrollbar { width: 8px; height: 8px; }
-  ::-webkit-scrollbar-track { background: #F9FAFB; }
-  ::-webkit-scrollbar-thumb { background: #D1D5DB; border-radius: 4px; }
-  ::-webkit-scrollbar-thumb:hover { background: #9CA3AF; }
+  ::-webkit-scrollbar-track { background: #0a1628; }
+  ::-webkit-scrollbar-thumb { background: #1d4ed8; border-radius: 4px; }
+  ::-webkit-scrollbar-thumb:hover { background: #2563eb; }
 }

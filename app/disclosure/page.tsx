@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "ProjectMgmtTools — Project Management Software Guide",
+  title: "ProjectMgmtTools — Affiliate Disclosure by Sapphire Labs",
   description:
-    "ProjectMgmtTools's affiliate disclosure policy. Learn how we may earn commissions through partner links on our site.",
+    "ProjectMgmtTools's affiliate disclosure policy. Learn how we may earn commissions through partner links on our site. Operated by Sapphire Labs.",
 };
 
 export default function DisclosurePage() {
@@ -78,8 +78,8 @@ export default function DisclosurePage() {
             <p>
               If you have any questions about our affiliate relationships or this
               disclosure, please contact us at{" "}
-              <a href="mailto:info@projectmgmtools.net" className="text-[#0891B2] hover:underline">
-                info@projectmgmtools.net
+              <a href="mailto:hello@sapphirelabs.dev" className="hover:underline" style={{ color: "#60a5fa" }}>
+                hello@sapphirelabs.dev
               </a>
               .
             </p>

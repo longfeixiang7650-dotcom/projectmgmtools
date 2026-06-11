@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms of Service — ProjectMgmtTools",
+  title: "Terms of Service — ProjectMgmtTools by Sapphire Labs",
   description:
     "Read the Terms of Service for ProjectMgmtTools. By using our directory platform, you agree to these terms governing your use of the website and services.",
 };
@@ -37,7 +37,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-xl font-bold text-[#F0F2FE] mb-3">2. Description of Service</h2>
             <p>
-              ProjectMgmtTools is a curated directory platform that provides information,
+              ProjectMgmtTools is an independent directory platform that provides information,
               comparisons, reviews, and pricing details about project management software tools. Our platform serves as a research and discovery resource. We do not
               sell, license, or distribute the software products listed on our Site unless
               explicitly stated otherwise.
@@ -193,10 +193,10 @@ export default function TermsPage() {
 
           <section>
             <h2 className="text-xl font-bold text-[#F0F2FE] mb-3">14. Contact Information</h2>
-            <div className="mt-4 p-5 bg-[#0F1F2D] border border-[#1E3A5F] rounded-xl">
-              <p className="mb-2"><strong className="text-[#F0F2FE]">Email:</strong> legal@projectmgmtools.net</p>
-              <p className="mb-2"><strong className="text-[#F0F2FE]">Support:</strong> support@projectmgmtools.net</p>
-              <p><strong className="text-[#F0F2FE]">Address:</strong> 201 Mission Street, 25th Floor, San Francisco, CA 94105</p>
+            <div className="mt-4 p-5 rounded-xl" style={{ backgroundColor: "#0d1e3c", border: "1px solid rgba(29,78,216,0.25)" }}>
+              <p className="mb-2"><strong style={{ color: "#f0f4ff" }}>Email:</strong> legal@sapphirelabs.dev</p>
+              <p className="mb-2"><strong style={{ color: "#f0f4ff" }}>Support:</strong> support@sapphirelabs.dev</p>
+              <p><strong style={{ color: "#f0f4ff" }}>Address:</strong> Sapphire Labs, Salt Lake City, UT 84101</p>
             </div>
           </section>
         </div>
